@@ -19,16 +19,16 @@ namespace DependencyBindingTest
            nameof(Description),
            typeof(string),
            typeof(CustomControl2),
-           new PropertyMetadata(null, OnLayerManagerChanged));
+           new PropertyMetadata(null, OnDescriptionChanged));
 
         public CustomControl2()
         {
             InitializeComponent();
         }
 
-        private static void OnLayerManagerChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        private static void OnDescriptionChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
-            int x = 0;
+            
         }
     }
 }
