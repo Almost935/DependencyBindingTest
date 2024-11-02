@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="CustomControl2.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="CustomControl2.xaml" />
+  </ItemGroup>
+
 </Project>

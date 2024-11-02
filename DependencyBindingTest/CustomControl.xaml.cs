@@ -28,9 +28,7 @@ namespace DependencyBindingTest
 
         private static void OnDescriptionChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
-            var oldValue = e.OldValue as string;
-            var newValue = e.NewValue as string;
-            int x = 0;
+
         }
     }
 }
